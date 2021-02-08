@@ -12,6 +12,7 @@ const addOne = (arr) => {
 
   arr.forEach(element => {
     element += 1;
+    arr.push(element);
   });
   return arr;
 };
