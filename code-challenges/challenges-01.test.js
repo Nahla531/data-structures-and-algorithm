@@ -14,7 +14,7 @@ const addOne = (arr) => {
     element += 1;
     arr.push(element);
   });
-  return arr;
+
 };
 
 
